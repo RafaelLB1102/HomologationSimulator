@@ -4,7 +4,13 @@
     src: url('./fonts/FiraSans-Regular.woff2') format('woff2');
 }
 
-select,button {
+select,button,p {
     font-family:"MiFuente", Times, serif; /* Cambia "Arial" por la fuente que prefieras */
 }
+
+
+  
+  
+  
+  
   

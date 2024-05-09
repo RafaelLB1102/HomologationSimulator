@@ -10,10 +10,17 @@
 
 <body>
     <div>
-        <select id="TechDropDown"></select>
-        <select id="MajorsDropDown"></select>
+        <select id="TechDropDown" onchange="showCredits()">
+            <option disabled selected>Escoge una tecnologia</option>
+        </select>
+        <select id="MajorsDropDown">
+            <option disabled selected>Escoge una carrera</option>
+        </select>
+    </div>
     <div>
-        <button>Revisa!</button>
+        <p id = "FullCredits"/>
+        <p id = "PassedCredits"/>
+        <p id = "PercentageOfComplition"/>
     </div>
     <script src="./index.js"></script>
 </body>
