@@ -1,13 +1,19 @@
 /* open-sans-regular - latin */
 @font-face { 
-    font-family: 'MiFuente'; /* Nombre de la fuente */
+    font-family: 'UAMFont'; /* Nombre de la fuente */
     src: url('./fonts/FiraSans-Regular.woff2') format('woff2');
 }
 
-select,button,p {
-    font-family:"MiFuente", Times, serif; /* Cambia "Arial" por la fuente que prefieras */
+select,button,p,svg {
+    font-family:"UAMFont", Times, serif; /* Cambia "Arial" por la fuente que prefieras */
 }
 
+#chart {
+    width: 220px; /* Aumentamos el tamaño del contenedor */
+    height: 220px; /* Aumentamos el tamaño del contenedor */
+  }
+  
+  
 
   
   
